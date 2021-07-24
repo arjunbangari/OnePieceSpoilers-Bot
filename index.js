@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const mongoose = require('mongoose')
 const commands = require('./utils/commands')
-const onePieceUpdates = require('./checkForUpdates/onepiece')
+const onePieceUpdates = require('./controllers/onepiece')
 
 // connect to database
 mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })

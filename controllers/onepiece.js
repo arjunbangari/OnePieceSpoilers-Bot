@@ -1,6 +1,6 @@
 const schedule = require('node-schedule')
-const Manga = require('./../models/manga')
-const Channel = require('./../models/channel') 
+const Manga = require('../models/manga')
+const Channel = require('../models/channel') 
 const axios = require('axios')
 const Discord = require('discord.js')
 let globalClient;
